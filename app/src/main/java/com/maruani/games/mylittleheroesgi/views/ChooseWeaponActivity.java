@@ -33,8 +33,8 @@ public class ChooseWeaponActivity extends AppCompatActivity {
     @BindView(R.id.activity_choose_weapon_next_btn)
     Button next;
     private WeaponAdapter weaponAdapter;
-    Weapon tmp = new Weapon();
     private long mLastClickTime = 0;
+    Weapon tmp = new Weapon();
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,8 +87,7 @@ public class ChooseWeaponActivity extends AppCompatActivity {
             return;
         }
         mLastClickTime = SystemClock.elapsedRealtime();
-        Log.d("TOZ", tmp.getName());
-        if(tmp.getName().length() == 0) {
+        if(tmp.getName() == null) {
             Toast.makeText(this, "Sélectionner une arme avant de continuer", Toast.LENGTH_SHORT).show();
         } else {
             Intent intent = new Intent(this, ShowInformationsActivity.class);

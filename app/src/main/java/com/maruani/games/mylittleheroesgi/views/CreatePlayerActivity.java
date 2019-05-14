@@ -32,8 +32,8 @@ public class CreatePlayerActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_create_player);
     ButterKnife.bind(this);
-    initDatePicker();
     birthdateEdt.setInputType(InputType.TYPE_NULL);
+    initDatePicker();
   }
 
   private void initDatePicker() {
