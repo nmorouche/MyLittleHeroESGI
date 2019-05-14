@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyLittleHeroESGI</string>
+    <string name="hello_world">Hello World !</string>
+    <string name="activity_home_start_btn">START</string>
+    <string name="activity_create_player_title">Create player</string>
+    <string name="activity_create_player_pseudo_hint">Pseudo</string>
+    <string name="activity_create_player_radio_button_male">male</string>
+    <string name="activity_create_player_radio_button_female">female</string>
+    <string name="activity_create_player_birthdate_hint">Birthdate</string>
+    <string name="activity_create_player_next_button">NEXT</string>
+    <string name="activity_choose_weapon_title">Choose your weapon!</string>
+    <string name="activity_show_informations_username">Username : %1$s</string>
+    <string name="activity_show_informations_gender">Gender : %1$s</string>
+    <string name="activity_show_informations_birthdate">Birthdate : %1$s</string>
+    <string name="activity_show_informations_weapon_type">Weapon type : %1$s</string>
+    <string name="activity_show_informations_weapon_name">Weapon name : %1$s</string>
+    <string name="activity_show_informations_finish">FINISH</string>
+    <string name="toto">Username :</string>
+</resources>
